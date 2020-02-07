@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+}
+body{
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario{
+    background: #fff;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.formulario input{
+    display: block;
+}
+.formulario input[type='text'],
+.formulario input[type='email'],
+.formulario input[type='password'],
+.formulario input[type='date'],
+.formulario input[type='number']{
+    padding: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 1px;
+    border: 1px solid #68D8D6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: inline-block;
+}
+h1{
+    color:#037387;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.formulario input[type='password']{
+    min-width: 49%;
+    max-width: 49%;
+}
+.formulario input[type='email'],
+.formulario input[type='text'],
+.formulario input[type='date'],
+.formulario input[type='number']{
+    min-width: 100%;
+    max-width: 100%;
+}
+.formulario input[type='text']:focus,
+.formulario input[type='email']:focus,
+.formulario input[type='password']:focus{
+    border: 2px solid #3DCCC7;
+}
+
+.formulario input[type='submit']{
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    background: none;
+    border: 1px solid #3DCCC7;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#3DCCC7;
+}
+
+.formulario input[type="submit"]:hover{
+    background: #3DCCC7;
+    color: #fff;
+}
+form img{
+    width: 450px;
+}
+
+form div img{
+    width: 30px;
+    color: #037387;
+}
+form div img:hover{
+    width:35px;
+}
+
+.formulario input[placeholder="Contraseña"]{
+    min-width: 100%;
+    max-width: 100%;
+}
+form div a{
+    font-family: Arial, Helvetica, sans-serif;
+    tab-size: 1em;
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #037387;
+}
+form div a:hover{
+    text-decoration: underline;
+}

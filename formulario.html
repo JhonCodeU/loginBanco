@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/formulario.css">
+    <script src="js/validaciones.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="" class="formulario">
+        <img src="img/banco nacion.png" alt="banco nacion">
+        <div>
+            <a href="login.html" style="display: inline"><img src="img/icono - Copy.png"></a>
+            <h1>Crear cuenta</h1>
+        </div>
+        <input type="text" placeholder="Usuario" id="txtUsuario" name="txtUsuario" onblur="ValidarUsuario()">
+        <input type="text" placeholder="Nombre" id="txtNombre" name="txtNombre" onblur="ValidarNombre()">
+        <input type="text" placeholder="Apellido"id="txtApellido" name="txtApellido" onblur="ValidarApellido()">
+        <input type="email" placeholder="Correo" id="txtCorreo" name="txtCorreo" onblur="validarCorreo()">
+        <input type="number" placeholder="edad" id="txtCorreo" name="txtCorreo" onblur="validarCorreo()">
+        <input type="date" placeholder="Fecha de nacimiento" id="txtCorreo" name="txtCorreo" onblur="validarCorreo()">
+        <input type="password" placeholder="contraseña" id="password" name="password" onblur="validarPassword()">
+        <input type="password" placeholder="confirmar contraseña" id="password1" name="password1" onblur="validarPassword1()">
+        <input type="submit" value="Registrarse">
+    </form>
+</body>
+</html>
